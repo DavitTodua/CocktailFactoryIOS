@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="CocktailTableViewCell" customModule="CocktailFactory" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p3n-Oi-VpU">
+                        <rect key="frame" x="8" y="4" width="80" height="72"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="72" id="aXL-rH-Bbu"/>
+                            <constraint firstAttribute="width" constant="80" id="rYa-ib-HyK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVk-fg-dj2">
+                        <rect key="frame" x="92" y="1" width="251" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cocktail Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdF-21-37o">
+                        <rect key="frame" x="92" y="28" width="218" height="24"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Alcoholic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esc-fo-S2d">
+                        <rect key="frame" x="92" y="59" width="251" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yVk-fg-dj2" firstAttribute="leading" secondItem="p3n-Oi-VpU" secondAttribute="trailing" constant="4" id="2re-bX-kkr"/>
+                    <constraint firstItem="p3n-Oi-VpU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="3Tq-bC-nhf"/>
+                    <constraint firstItem="zdF-21-37o" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AL7-P5-aJJ"/>
+                    <constraint firstItem="Esc-fo-S2d" firstAttribute="top" secondItem="zdF-21-37o" secondAttribute="bottom" constant="7" id="E6V-Wz-J2r"/>
+                    <constraint firstItem="zdF-21-37o" firstAttribute="leading" secondItem="p3n-Oi-VpU" secondAttribute="trailing" constant="4" id="Slf-9a-cgZ"/>
+                    <constraint firstItem="zdF-21-37o" firstAttribute="top" secondItem="yVk-fg-dj2" secondAttribute="bottom" constant="7" id="aGJ-XK-kJD"/>
+                    <constraint firstAttribute="bottom" secondItem="p3n-Oi-VpU" secondAttribute="bottom" constant="4" id="dbf-vG-Zh9"/>
+                    <constraint firstItem="Esc-fo-S2d" firstAttribute="leading" secondItem="p3n-Oi-VpU" secondAttribute="trailing" constant="4" id="wQb-wT-IvD"/>
+                    <constraint firstItem="p3n-Oi-VpU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="yJP-aD-FTg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="alcoholicLabel" destination="Esc-fo-S2d" id="J2a-bp-f8L"/>
+                <outlet property="avatarImage" destination="p3n-Oi-VpU" id="LWI-tC-Kfb"/>
+                <outlet property="categoryLabel" destination="yVk-fg-dj2" id="EI2-Su-4D0"/>
+                <outlet property="cocktailNameLabel" destination="zdF-21-37o" id="iRo-Si-8rm"/>
+            </connections>
+            <point key="canvasLocation" x="107.97101449275362" y="119.86607142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CocktailEntity" representedClassName="CocktailEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="dataImage" optional="YES" attributeType="Binary"/>
+        <attribute name="idDrink" optional="YES" attributeType="String"/>
+        <attribute name="strAlcoholic" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strDrink" optional="YES" attributeType="String"/>
+        <attribute name="strDrinkThumb" optional="YES" attributeType="String"/>
+        <attribute name="strGlass" optional="YES" attributeType="String"/>
+        <attribute name="strIBA" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CocktailEntity" positionX="-63" positionY="-18" width="128" height="464"/>
+    </elements>
+</model>
